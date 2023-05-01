@@ -1,0 +1,27 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.BlackOffer" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/purple_500</item>
+        <item name="colorPrimaryVariant">@color/purple_700</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/teal_200</item>
+        <item name="colorSecondaryVariant">@color/teal_700</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">@color/appColor</item>
+    </style>
+
+    <style name="Theme.BlackOffer" parent="Base.Theme.BlackOffer" />
+
+    <style name="customfontstyle" parent="@android:style/TextAppearance.Small">
+        <item name="android:textSize">13sp</item>
+    </style>
+
+    <style name="MySliderStyle" parent="Widget.MaterialComponents.Slider">
+        <item name="trackColorActive">#116161</item>
+        <item name="trackColorInactive">#C5C6C6</item>
+    </style>
+
+</resources>
